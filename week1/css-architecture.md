@@ -32,8 +32,6 @@ The dark truth about projects:
 </div>
 ```
 
-![How CSS feels](https://media3.giphy.com/media/12Him6rErSCWUU/200.gif?cid=e1bb72ff13282e02770f3d90a79871d94dded618bea95f83&rid=200.gif)
-
 ---
 
 Using your words carefully is important:
@@ -119,8 +117,6 @@ A flag to identify a change in appearance of behaviour.
 ```
 
 ---
-
-![How CSS feels](https://media0.giphy.com/media/m2YYMHxFFHwM8/200.gif?cid=e1bb72ff13282e02770f3d90a79871d94dded618bea95f83&rid=200.gif)
 
 2. Your styling may not behave the way you want if the element in question already has an attribute with a higher specificity.
 
