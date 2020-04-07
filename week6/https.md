@@ -95,7 +95,7 @@ TLS = Transport Layer Security
 
 ---
 
-![tls handshake](https://i.imgur.com/hBitXro.png =500x)
+![tls handshake](https://i.imgur.com/hBitXro.png)
 
 ---
 
