@@ -14,7 +14,7 @@
 
 #### What is Content Security Policy? (CSP)
 
-![](https://media.giphy.com/media/l46CtrZxECRP4j4mk/giphy.gif =600x)
+![](https://media.giphy.com/media/l46CtrZxECRP4j4mk/giphy.gif)
 
 ---
 
@@ -62,7 +62,7 @@ There are a LOT of directives (about 20). They can do things like specify what a
 Several things are disabled
 by default when you use CSP
 
-![](https://media.giphy.com/media/utmZFnsMhUHqU/giphy.gif =500x)
+![](https://media.giphy.com/media/utmZFnsMhUHqU/giphy.gif)
 
 ---
 
