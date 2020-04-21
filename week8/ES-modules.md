@@ -18,25 +18,25 @@
 
 ### Boris Analogy (c)
 
-![Boris browser needs to solve problem](https://media.giphy.com/media/VEVzz4VZVsXNioYt5T/giphy.gif =600x)
+![Boris browser needs to solve problem](https://media.giphy.com/media/VEVzz4VZVsXNioYt5T/giphy.gif )
 
 ---
 
-![How to get Brexit done](https://media.giphy.com/media/JQdMxVDuwqpLezoLlE/giphy.gif =700x)
+![How to get Brexit done](https://media.giphy.com/media/JQdMxVDuwqpLezoLlE/giphy.gif)
 
 ---
 
 ### Michael Gove module
 
-![Michael Gove module](https://media.giphy.com/media/Y0DUJbOsJPWHg8GWUG/giphy.gif =700x)
+![Michael Gove module](https://media.giphy.com/media/Y0DUJbOsJPWHg8GWUG/giphy.gif)
 
 ---
 
-![Has the Brexit function to give Boris](https://media.giphy.com/media/YWUpVw86AtIbe/giphy.gif =500x)
+![Has the Brexit function to give Boris](https://media.giphy.com/media/YWUpVw86AtIbe/giphy.gif )
 
 ---
 
-![Happy Boris](https://media.giphy.com/media/8HZmQNESCZKJG/giphy.gif =700x)
+![Happy Boris](https://media.giphy.com/media/8HZmQNESCZKJG/giphy.gif)
 
 ---
 
@@ -117,7 +117,7 @@ export default str => str.toUpperCase()
 
 #### Why might using hundreds of small modules in the browser cause performance problems?
 
-![](https://2r4s9p1yi1fa2jd7j43zph8r-wpengine.netdna-ssl.com/files/2018/03/10_construction.png =700x)
+![](https://2r4s9p1yi1fa2jd7j43zph8r-wpengine.netdna-ssl.com/files/2018/03/10_construction.png)
 
 ---
 
@@ -137,4 +137,4 @@ export default str => str.toUpperCase()
 
 ## Questions?
 
-![](https://thumbs.gfycat.com/GroundedOblongDuiker-size_restricted.gif =500x)
+![](https://thumbs.gfycat.com/GroundedOblongDuiker-size_restricted.gif)
