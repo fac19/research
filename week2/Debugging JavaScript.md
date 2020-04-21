@@ -32,7 +32,7 @@ How would you effectively find out where (and why) an error is occurring in your
 
 + console.log(...); //log a message or an object to console
 
-![](https://media.giphy.com/media/m8DnDYfRwEtvG/giphy.gif]
+![](https://media.giphy.com/media/m8DnDYfRwEtvG/giphy.gif)
 
 ---
 
