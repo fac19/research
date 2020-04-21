@@ -32,7 +32,7 @@ How would you effectively find out where (and why) an error is occurring in your
 
 + console.log(...); //log a message or an object to console
 
-<iframe src="https://giphy.com/embed/m8DnDYfRwEtvG" width="480" height="366" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/animation-90s-ren-and-stimpy-m8DnDYfRwEtvG"></a></p>
+![](https://giphy.com/gifs/animation-90s-ren-and-stimpy-m8DnDYfRwEtvG]
 
 ---
 
