@@ -1,4 +1,4 @@
-# Browser cashing - Week 8 Spike :bear:
+# Browser caching - Week 8 Spike :bear:
 
 ---
 
