@@ -16,7 +16,7 @@ How would you effectively find out where (and why) an error is occurring in your
 
  🤯 Command+Option+I (Mac) or Control+Shift+I (Windows, Linux) or control+shift+J for console🤯 
 
-![](https://i.imgur.com/aD4PZD8.png =900x550)
+![](https://i.imgur.com/aD4PZD8.png)
 
 
 ---
@@ -53,7 +53,7 @@ function testError() {
 
 ---
 
-![](https://i.imgur.com/RmGauVt.png =700x600)
+![](https://i.imgur.com/RmGauVt.png)
 
 
 ---
@@ -118,7 +118,7 @@ console.log("Cambell")
 console.groupEnd()
 ```
 
-![](https://i.imgur.com/JQRfgij.png =700x350)
+![](https://i.imgur.com/JQRfgij.png)
 
 
 ---
@@ -183,7 +183,7 @@ console.log(c);
 
 ### Debugger in the browser
 
-![](https://i.imgur.com/CvK6KyS.png =900x600)
+![](https://i.imgur.com/CvK6KyS.png)
 
 ---
 
@@ -195,7 +195,7 @@ console.log(c);
 
 ---
 
-![](https://i.imgur.com/qPAOBsU.png =700x300)
+![](https://i.imgur.com/qPAOBsU.png)
 
 
 ---
