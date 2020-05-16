@@ -211,7 +211,7 @@ Install this:
 
 ```
 npx install-peerdeps --dev eslint-config-airbnb
-npm i -D eslint eslint -config-airbnb eslint-config-prettier prettier pretty-quick lint-staged husky
+npm i -D eslint eslint-config-airbnb eslint-config-prettier prettier pretty-quick lint-staged husky
 ```
 
 The only difference here is the airbnb config we're using.
