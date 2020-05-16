@@ -233,7 +233,7 @@ The config files we write by hand will be different to the ones for non-react pr
 	},
 ```
 
-The `.eslint` is different too.
+The `.eslintrc` is different too.
 <details>
 <summary>Find it here</summary>
 
