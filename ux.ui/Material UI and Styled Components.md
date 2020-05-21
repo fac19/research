@@ -57,7 +57,7 @@ export default NavBar;
 #### Grid
 - Grid properties allow customization of size/element type e.g. container, item, lg, md, sm, justify 
 
-```javascript=
+```javascript
 import { Grid } from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
 import CardMedia from "@material-ui/core/CardMedia";
