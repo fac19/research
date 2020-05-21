@@ -30,7 +30,7 @@ npm i @material-ui/core
 ### Basic How-to
 Import what you need, create the component, add properties and export it
 
-```javascript=
+```javascript
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
@@ -97,9 +97,9 @@ function Posts(props) {
 
 ### Customising Material UI components
 
-import makeStyles and use it as CSS. Add the className to the component
+import makeStyles and use it like CSS (but as an object). Add the className to the desired component -> className={classes.yourClass}
 
-```javascript=
+```javascript
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
@@ -138,7 +138,7 @@ npm install styled-components
 
 React and CSS
 
-```javascript=
+```javascript
 <h2 className="subtitle">Hello world</h2>
 ```
 
@@ -153,7 +153,7 @@ h2.subtitle{
 
 Styled Components
 
-```javascript=
+```javascript
 import styled from 'styled-components';
 
 const Subtitle = styled.h2`
@@ -171,7 +171,7 @@ const Subtitle = styled.h2`
 - Material UI's default rules will **override styled components** as they have higher specificity
 - To override these, add class names or force specificity
 
-```javascript=
+```javascript
  <AppBar classes={{root: 'my-root-class'}}
  
  styled(AppBar)`
