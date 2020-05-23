@@ -57,7 +57,8 @@ These two extensions are config packages we installed above. `eslint-config-pret
 	"extends": ["airbnb-base", "prettier"],
 	"rules": {
 		"prefer-promise-reject-errors": "off",
-		"max-len": ["error", {"code": 80, "ignoreComments": true, "ignoreUrls": true}]
+		"max-len": ["error", {"code": 80, "ignoreComments": true, "ignoreUrls": true}],
+        "no-console": 0
 	}
 }
     
@@ -89,9 +90,8 @@ Next we'll add two items to the top-level of our package.json, so that eslint an
   },
   "lint-staged": {
     "*.js": [
-      "eslint",
-      "pretty-quick --staged",
-      "git add"
+        "pretty-quick --staged",
+        "eslint",
     ]
   },
 ```
@@ -112,9 +112,8 @@ Next we'll add two items to the top-level of our package.json, so that eslint an
   },
   "lint-staged": {
     "*.js": [
-      "eslint",
-      "pretty-quick --staged",
-      "git add"
+        "pretty-quick --staged",
+        "eslint",
     ]
   },
   "dependencies": {},
@@ -158,7 +157,7 @@ With this setup, when we run git commit, prettier will automatically change form
 
 If you ran git commit and committed your node_modules folder you can enter `git rm -r node_modules/ --cached` to remove them from the git repo but not your local folder.
 
-Finally, note that the airbnb config is strict, so it might stop you comitting things you do want to commit.  If you want to _skip_ linter checks and commit, you can use `git commit --no-verify`. This isn't generally recommended, but it's a good thing to have in your arsenal. 
+Finally, note that the airbnb config is very strict, so it might stop you comitting things you do want to commit.  If you want to _skip_ linter checks and commit, you can use `git commit --no-verify`. This isn't generally recommended, but it's a good thing to have in your arsenal. 
 
 
 #### 4. Get your text editor on board
@@ -226,9 +225,8 @@ The config files we write by hand will be different to the ones for non-react pr
 	},
 	"lint-staged": {
 		"*.js": [
-			"eslint",
-			"pretty-quick --staged",
-			"git add"
+            "pretty-quick --staged",
+            "eslint"
 		]
 	},
 ```
