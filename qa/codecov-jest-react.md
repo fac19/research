@@ -1,6 +1,15 @@
-# Codecov with Jest/React
+<!-- omit in toc -->
+# Codecov with Jest/React 
 
 **Content**
+- [Setup with Jest in React](#setup-with-jest-in-react)
+  - [Generating reports and "react-scripts test"](#generating-reports-and-react-scripts-test)
+  - [Uploading the report](#uploading-the-report)
+    - [Not using CI](#not-using-ci)
+    - [Using CI (Travis)](#using-ci-travis)
+- [Extras](#extras)
+- [Resources](#resources)
+
 
 In a nutshell, [Codecov.io](http://codecov.io) is a tool that integrates code coverage reports making it easy to identify what areas of your code are or are not being tested. It is supported by [lots of languages](https://docs.codecov.io/docs/supported-languages), Javascript/Node.js included. The set up however also varies according to what test runner you are using in your project. For our project Bechdel and Beyond we decided to use Tape in the [backend](https://github.com/fac19/Bechdel-Beyond-backend) and Jest in React for the [front-end](https://github.com/fac19/Bechdel-Beyond). Below I am sharing the steps we took to set up our front-end repo in Codecov.
 
@@ -67,11 +76,11 @@ Don't forget to include /coverage to the `.gitignore`
 /coverage
 ```
 
-### **Not using CI**
+### Not using CI
 
 If you are not using any CI yet, remove the token and `-t` from your package.json and save the token in a `.env` file. Push your branch to the remote and the report will be uploaded to your Codecov dashboard. It might take it some seconds to upload.
 
-### **Using CI (Travis)**
+### Using CI (Travis)
 
 If using Travis in your project, remove the token and `-t` from your package.json and save the token provided in your project dashboard on Travis. Add both scripts to your `.travis.yml`:
 
