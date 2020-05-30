@@ -1,6 +1,15 @@
+<!-- omit in toc -->
 # Codecov with Tape/Node.js
 
 **Content**
+
+- [Setup with Tape in Node.js](#setup-with-tape-in-nodejs)
+  - [**Generating reports**](#generating-reports)
+  - [Uploading reports](#uploading-reports)
+    - [**Not using CI**](#not-using-ci)
+    - [**Using CI (Travis)**](#using-ci-travis)
+- [Extras](#extras)
+- [Resources](#resources)
 
 In a nutshell, [Codecov.io](http://codecov.io) is a tool that integrates code coverage reports making it easy to identify what areas of your code are or are not being tested. It is supported by [lots of languages](https://docs.codecov.io/docs/supported-languages), Javascript/Node.js included. The set up however also varies according to what test runner you are using in your project. For our project Bechdel and Beyond we decided to use Tape in the [backend](https://github.com/fac19/Bechdel-Beyond-backend) and Jest in React for the [front-end](https://github.com/fac19/Bechdel-Beyond). Below I am sharing the steps we took to set up our backend repo in Codecov.
 

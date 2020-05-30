@@ -1,6 +1,13 @@
+<!-- omit in toc -->
 # Deploy to Heroku: beginners guide
 
 **Content**
+- [**Deploy to Heroku**](#deploy-to-heroku)
+- [**Deploying your database to Heroku**](#deploying-your-database-to-heroku)
+  - [**Connect to database**](#connect-to-database)
+- [Other stuff](#other-stuff)
+- [Resources](#resources)
+
 
 ## **Deploy to Heroku**
 
@@ -63,7 +70,7 @@ PGUSER=myuser
 PGPASSWORD=mypassword
 ```
 
-## Other stuff
+# Other stuff
 
 - view more info about database by accessing it from 'Resources' and navigating to 'Settings' > `View Credentials`.
 - add collaborators via `Access`tab,
@@ -71,7 +78,7 @@ PGPASSWORD=mypassword
 - You can delete projects from Heroku in 'Setting' at the bottom of the page.
 - If run into problems, if might be helpful to login to your project on Heroku via CLI. Install Heroku  (macOS) to access it : `brew tap heroku/brew && brew install heroku`. To login: `heroku login` (credentials required). More about [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli-commands).
 
-## Resources
+# Resources
 
 [Heroku Spike](https://github.com/fac19/research/blob/master/week4/heroku.md)
 
