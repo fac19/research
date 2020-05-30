@@ -17,7 +17,7 @@ In a nutshell, [Codecov.io](http://codecov.io) is a tool that integrates code co
 
 If using **Tape** as your test runner you will need some extra tools to implement test coverage. Codecov '[quick start](https://docs.codecov.io/docs/quick-start)' guide recommends Istanbul to generate coverage reports locally that then are sent to Codecov when your branch is pushed to the remote repo. 
 
-## **Generating reports**
+## Generating reports
 
 To track the lines of your code being used when your tests run, Codecov recommends installing Istanbul in your development dependencies. I tried following the instructions for Istanbul, but the package is now deprecated and the alternative is Istanbul's command line interface called `nyc` . To install it, run:
 
