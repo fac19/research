@@ -1,8 +1,8 @@
 <!-- omit in toc -->
-# Codecov with Jest/React 
+# Codecov using Jest in React 
 
 **Content**
-- [Setup with Jest in React](#setup-with-jest-in-react)
+- [Setup](#setup)
   - [Generating reports and "react-scripts test"](#generating-reports-and-react-scripts-test)
   - [Uploading the report](#uploading-the-report)
     - [Not using CI](#not-using-ci)
@@ -13,7 +13,7 @@
 
 In a nutshell, [Codecov.io](http://codecov.io) is a tool that integrates code coverage reports making it easy to identify what areas of your code are or are not being tested. It is supported by [lots of languages](https://docs.codecov.io/docs/supported-languages), Javascript/Node.js included. The set up however also varies according to what test runner you are using in your project. For our project Bechdel and Beyond we decided to use Tape in the [backend](https://github.com/fac19/Bechdel-Beyond-backend) and Jest in React for the [front-end](https://github.com/fac19/Bechdel-Beyond). Below I am sharing the steps we took to set up our front-end repo in Codecov.
 
-# Setup with Jest in React
+# Setup
 
 If using **Jest** in a React app you won't need extra tools to implement test coverage. **Jest** already comes with Istanbul library to generate coverage reports, so there is no need to install `nyc` like we have to do with Tape. In this case, I didn't find the instructions provided by Codecov useful. Instead, Jest says on their homepage that you only need to add `--coverage` flag to "generate coverage". 
 
