@@ -266,6 +266,64 @@ The `.eslintrc` is different too.
 </details>
 
 ---
+To make it easier to spot these issues during development, Create React App (CRA) includes the `eslint-plugin-jsx-a11y` plugin for ESLint by default.
+
+To check for even more accessibility rules, modify the file to automatically include all the recommended rules by the plugin:
+
+```json
+{
+  "extends": [
+		"react-app",
+		"plugin:jsx-a11y/recommended"
+	]
+}
+```
+
+If you would like an even stricter subset of rules, switch to strict mode:
+
+```json
+{
+  "extends": [
+		"react-app",
+		"plugin:jsx-a11y/strict"
+	]
+}
+
+```
+
+The project [documentation](https://github.com/evcohen/eslint-plugin-jsx-a11y#difference-between-recommended-and-strict-mode) provides information on the differences between recommended and strict mode.
+
+ `eslint-plugin-jsx-a11y` can help you easily pinpoint any accessibility issues in your JSX, but it does not test any of the final HTML output. `react-axe` is a library that does exactly this by providing a React wrapper around the [axe-core](https://github.com/dequelabs/axe-core) testing tool by Deque Labs.
+
+Install the library as a development dependency to begin:
+
+```
+npm install --save-dev react-axe
+```
+
+You now only need to initialize the module in `index.js`:
+
+```jsx
+if (process.env.NODE_ENV !== 'production') {
+	import('react-axe').then((axe) => {
+		axe.default(React, ReactDOM, 1000);
+		ReactDOM.render(<App />, document.getElementById('root'));
+	});
+} else {
+	ReactDOM.render(<App />, document.getElementById('root'));
+}
+```
+
+A dynamic import is used here to only load the library when it is not in production mode before rendering and booting up the root App component. This ensures that it is not unnecessarily included in the final production bundle.
+
+Now when you run the application during development, issues are surfaced directly to the Chrome DevTools console.
+
+A severity level is also assigned for each violation. These levels are:
+
+- Minor
+- Moderate
+- Serious
+- Critical
 
 If you also want to add the command `npm run lint` to your `package.json` you'll need to comment out "react-app" in the "extends" field of your `.eslintrc` - I'm not sure which is best.
 
@@ -274,3 +332,4 @@ If you also want to add the command `npm run lint` to your `package.json` you'll
 - [husky, lint-staged and git hooks](https://www.vojtechruzicka.com/githooks-husky/)
 - The npm pages for a lot of these packages
 - [Another good article](https://medium.com/@pppped/extend-create-react-app-with-airbnbs-eslint-config-prettier-flow-and-react-testing-library-96627e9a9672)
+- [Accessibility auditing with react-axe and eslint-plugin-jsx-a11y](https://web.dev/accessibility-auditing-react/)
