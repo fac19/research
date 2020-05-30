@@ -77,11 +77,11 @@ coverage
 .nyc_output
 ```
 
-### **Not using CI**
+### Not using CI
 
 If you are not using any CI yet, remove the token and `-t` from your package.json and save the token in a `.env` file. Push your branch to the remote and the report will be uploaded to your Codecov dashboard. It might take it some seconds to upload.
 
-### **Using CI (Travis)**
+### Using CI (Travis)
 
 If using Travis in your project, remove the token and `-t` from your package.json and save the token provided in your project dashboard on Travis. Add both scripts to your `.travis.yml`:
 
