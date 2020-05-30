@@ -17,13 +17,13 @@ In a nutshell, [Codecov.io](http://codecov.io) is a tool that integrates code co
 
 If using **Jest** in a React app you won't need extra tools to implement test coverage. **Jest** already comes with Istanbul library to generate coverage reports, so there is no need to install `nyc` like we have to do with Tape. In this case, I didn't find the instructions provided by Codecov useful. Instead, Jest says on their homepage that you only need to add `--coverage` flag to "generate coverage". 
 
-However, it wasn't clear to me that "generate coverage" doesn't include uploading the report to codecov, if the watch mode would interfere  the reporting, and, being a newbie in React, I also was wondering if I had to change the React default script `"test": "react-scripts test"` to Jest. 
+However, it wasn't clear to me that "generate coverage" doesn't include uploading the report to codecov, and, being a newbie in React, I was wondering if I had to change the React default script `"test": "react-scripts test"` to Jest. 
 
 ## Generating reports and "react-scripts test"
 
-Is an out of the box React App script that uses Jest as test runner. When invoked, it runs Jest in watch mode. Another important distinction is that `react-script test` already comes with [Babel](https://babeljs.io/docs/en/index.html), so unlike pure Jest it is able to read `jsx` code. Therefore, changing the test script to Jest, makes it necessary to install babel for your tests to run.
+`test: react-scripts test` is an out of the box React App script that uses Jest as test runner. When invoked, it runs Jest in watch mode. Another important distinction is that `react-script test` already comes with [Babel](https://babeljs.io/docs/en/index.html), so unlike pure Jest it is able to read `jsx` code. Changing the test script to Jest, makes it necessary to install babel for your tests to run, so it doesn't make much sense.
 
-In our project, I decided to add a new script to run tests when generating coverage report turning watch mode to false:
+In our project, I decided to add a new script to run tests generating coverage reports, turning watch mode to false (it wasn't working really well for me without it):
 
 ```
 "scripts": {
@@ -38,7 +38,7 @@ Running `npm run test:report`   will then show the report below alongside your t
 
 ![report example](./img/Screenshot_2020-05-21_at_09.03.32.png)
 
-If you don't see all your files on the list or you see anything that shouldn't be included in the converage, you can include a jest config section in your package.json. The examples below might be useful, but a full list of Jest coverage config options can be found [here](https://jestjs.io/docs/en/configuration).
+If you don't see all the project files on the list or you see anything that shouldn't be in the converage, you can include a Jest config section in your package.json. The examples below might be useful, but a full list of Jest coverage config options can be found [here](https://jestjs.io/docs/en/configuration).
 
 ```json
 "jest": {
