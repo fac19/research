@@ -4,10 +4,10 @@
 **Content**
 
 - [Setup with Tape in Node.js](#setup-with-tape-in-nodejs)
-  - [**Generating reports**](#generating-reports)
+  - [Generating reports](#generating-reports)
   - [Uploading reports](#uploading-reports)
-    - [**Not using CI**](#not-using-ci)
-    - [**Using CI (Travis)**](#using-ci-travis)
+    - [Not using CI](#not-using-ci)
+    - [Using CI (Travis)](#using-ci-travis)
 - [Extras](#extras)
 - [Resources](#resources)
 
@@ -17,7 +17,7 @@ In a nutshell, [Codecov.io](http://codecov.io) is a tool that integrates code co
 
 If using **Tape** as your test runner you will need some extra tools to implement test coverage. Codecov '[quick start](https://docs.codecov.io/docs/quick-start)' guide recommends Istanbul to generate coverage reports locally that then are sent to Codecov when your branch is pushed to the remote repo. 
 
-## **Generating reports**
+## Generating reports
 
 To track the lines of your code being used when your tests run, Codecov recommends installing Istanbul in your development dependencies. I tried following the instructions for Istanbul, but the package is now deprecated and the alternative is Istanbul's command line interface called `nyc` . To install it, run:
 
@@ -77,11 +77,11 @@ coverage
 .nyc_output
 ```
 
-### **Not using CI**
+### Not using CI
 
 If you are not using any CI yet, remove the token and `-t` from your package.json and save the token in a `.env` file. Push your branch to the remote and the report will be uploaded to your Codecov dashboard. It might take it some seconds to upload.
 
-### **Using CI (Travis)**
+### Using CI (Travis)
 
 If using Travis in your project, remove the token and `-t` from your package.json and save the token provided in your project dashboard on Travis. Add both scripts to your `.travis.yml`:
 
