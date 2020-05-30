@@ -4,10 +4,10 @@
 **Content**
 
 - [Setup with Tape in Node.js](#setup-with-tape-in-nodejs)
-  - [**Generating reports**](#generating-reports)
+  - [Generating reports](#generating-reports)
   - [Uploading reports](#uploading-reports)
-    - [**Not using CI**](#not-using-ci)
-    - [**Using CI (Travis)**](#using-ci-travis)
+    - [Not using CI](#not-using-ci)
+    - [Using CI (Travis)](#using-ci-travis)
 - [Extras](#extras)
 - [Resources](#resources)
 
