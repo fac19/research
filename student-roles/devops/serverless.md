@@ -1,7 +1,6 @@
-￼￼
-# Going Serverless
+￼￼# Going Serverless
 
-![](https://i.imgur.com/cu2Ldpw.png)
+![](https://i.imgur.com/cu2Ldpw.png =600x)
 
 
 
@@ -58,7 +57,8 @@ app.get('/', function(req, res, next) { /* execute some code */ });
 
 ## CONFUSED YET?
 
-![confused girl](https://media.giphy.com/media/APqEbxBsVlkWSuFpth/giphy.gif)
+![](https://media.giphy.com/media/APqEbxBsVlkWSuFpth/giphy.gif)
+
 ---
 
 ### Luckily there are tools to help
@@ -82,7 +82,7 @@ app.get('/', function(req, res, next) { /* execute some code */ });
 
 ### Serverless request flow
 
-![](https://i.imgur.com/IPohA9G.png)
+![](https://i.imgur.com/IPohA9G.png =700x)
 
 
 
@@ -113,6 +113,17 @@ app.get('/', function(req, res, next) { /* execute some code */ });
 ```
 
 ---
+
+## NETLIFY DEV replaces lambda now
+
+- You can ```npm install -g netlify-cli``` to give you access to the netlify command anywhere. 
+- You can now run ```netlify dev ``` inside a project and it should detect the project type and start up a dev server automatically.
+- if you’ve created an environment variable in Netlify UI e.g. “API_SECRET” you should be able to access it in your Functions using process.env.API_SECRET.
+- netlify dev creates a file ```.netlify/state.json```  which contains the "siteID" of your deployed site.
+
+
+---
+
 
 #### Write your function in separate js files
 
@@ -163,11 +174,11 @@ exports.handler = (event, context, callback) => {
 
 
 
-------
+---
 
 ## That's it!
 
-![](https://media.giphy.com/media/3ofT5yFjWxh15lsl0s/giphy.gif)
+![](https://media.giphy.com/media/3ofT5yFjWxh15lsl0s/giphy.gif =600x)
 
 ---
 
@@ -182,5 +193,9 @@ exports.handler = (event, context, callback) => {
 [Netlify Lambda functions from scratch](https://travishorn.com/netlify-lambda-functions-from-scratch-1186f61c659e)
 
 [Github Netlify Lambda docs](https://github.com/netlify/netlify-lambda)
+
+[Oli's Netlify dev article](https://oliverjam.es/blog/we-dont-need-servers/)
+
+[Adding netlify env variables for React](https://medium.com/better-programming/why-you-should-add-environment-variables-to-netlify-sites-bae57012cc74)
 
 [Netlify Serverless Image uploads](https://www.netlify.com/blog/2016/11/17/serverless-file-uploads/)
