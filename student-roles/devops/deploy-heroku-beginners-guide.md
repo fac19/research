@@ -9,7 +9,7 @@
 - [Resources](#resources)
 
 
-## **Deploy to Heroku**
+## Deploy to Heroku
 
 Signup/Login to [www.heroku.com](http://www.heroku.com). Go to `New` > `Create new app` to start. Add name, region and hit `Create app`. Choose GitHub as deployment method under 'Deploy' tab, search for your repo to connect: 
 
@@ -29,7 +29,7 @@ Important to notice that after deployment Heroku will run what is in script 'sta
 }
 ```
 
-## **Deploying your database to Heroku**
+## Deploying your database to Heroku
 
 Once your app is up you should see the message below:
 
@@ -43,7 +43,7 @@ Back to 'Resources' tab you can see your current database clicking on `Heroku Po
 
 ![Deploy%20to%20Heroku%20beginners%20guide%20e1dee2ab8987423d8d3ae90769d9bfe7/Screenshot_2020-05-21_at_22.02.27.png](./img/Screenshot_2020-05-21_at_22.02.27.png)
 
-### **Connect to database**
+### Connect to database
 
 Heroku will generate a DATABASE_URL that you will need to use to connect to your production database. You can find this under 'Settings' back to the project tab in `Reveal Config Vars` with key 'DATABASE_URL'. 
 
