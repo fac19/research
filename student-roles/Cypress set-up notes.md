@@ -1,6 +1,6 @@
 ---
-title: "Cypress, QA Notes"
-tags: ""
+title: "Cypress set-up notes"
+tags: "qa"
 ---
 
 ## Set Up
