@@ -1,6 +1,6 @@
 ￼￼# Going Serverless
 
-![](https://i.imgur.com/cu2Ldpw.png =600x)
+![](https://i.imgur.com/cu2Ldpw.png )
 
 
 
@@ -82,7 +82,7 @@ app.get('/', function(req, res, next) { /* execute some code */ });
 
 ### Serverless request flow
 
-![](https://i.imgur.com/IPohA9G.png =700x)
+![](https://i.imgur.com/IPohA9G.png )
 
 
 
@@ -178,7 +178,7 @@ exports.handler = (event, context, callback) => {
 
 ## That's it!
 
-![](https://media.giphy.com/media/3ofT5yFjWxh15lsl0s/giphy.gif =600x)
+![](https://media.giphy.com/media/3ofT5yFjWxh15lsl0s/giphy.gif)
 
 ---
 
