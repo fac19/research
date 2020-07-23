@@ -161,6 +161,12 @@ This command will throw a 'handshake_failed' because the server doesn't support 
 
 ---
 
+## Who was listening?
+
+![which is which](https://media.giphy.com/media/LOznMvZUKneOhiIscg/giphy.gif)
+
+---
+
 ## Question time
 ![question](https://media.giphy.com/media/FJ0lXKOdOwjvO/giphy.gif)
 
