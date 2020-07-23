@@ -19,7 +19,7 @@ We want to see what is going on in our request.
 
 * Debugging gives you clarity over what's going on 'under the hood'
 
-![under the hood](https://media.giphy.com/media/VXCPgZwEP7f1e/giphy.gif)
+![under-the-hood](https://media.giphy.com/media/xTiTnm8AGoS75Cvyko/giphy.gif)
 
 ---
 
