@@ -42,19 +42,19 @@
 
 ---
 
-![donald wants pizza](https://media.giphy.com/media/l3vRgKqw8Pzwmb62A/giphy.gif =600x)
+![donald wants pizza](https://media.giphy.com/media/l3vRgKqw8Pzwmb62A/giphy.gif)
 
 ---
 
-![kitchens](https://media.giphy.com/media/demgpwJ6rs2DS/giphy.gif =600x)
+![kitchens](https://media.giphy.com/media/demgpwJ6rs2DS/giphy.gif)
 
 ---
 
-![white house security](https://media.giphy.com/media/5eFRKTq4uUeHe1czA5/giphy.gif =600x)
+![white house security](https://media.giphy.com/media/5eFRKTq4uUeHe1czA5/giphy.gif)
 
 ---
 
-![donald gets pizza](https://media.giphy.com/media/gOkl3JJ50kTDO/giphy.gif =600x)
+![donald gets pizza](https://media.giphy.com/media/gOkl3JJ50kTDO/giphy.gif)
 
 ---
 
